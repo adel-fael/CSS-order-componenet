@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --clr-paleBlue-100: hsl(225, 100%, 98%);
+  --clr-paleBlue-200: hsl(225, 100%, 94%);
+  --clr-brightBlue: hsl(245, 75%, 52%);
+
+  --clr-desBlue: hsl(224, 23%, 55%);
+  --clr-darkblue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--clr-paleBlue-200);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 6rem auto;
+  width: 80%;
+  font-size: 0.7rem;
+}
+
+.section-title {
+  padding: 2em;
+  text-align: center;
+}
+.section-title h1 {
+  color: var(--clr-darkblue);
+  font-weight: 900;
+}
+.section-title p {
+  color: var(--clr-desBlue);
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 1rem;
+}
+
+.section-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  background-color: var(--clr-paleBlue-100);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 90%;
+}
+.section-plan--iconText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+.section-plan--text {
+  padding-left: 1rem;
+}
+.section-plan--text h3 {
+  color: var(--clr-darkblue);
+  font-weight: 900;
+  font-size: 0.6rem;
+}
+.section-plan--text p {
+  color: var(--clr-desBlue);
+  font-size: 0.7rem;
+}
+.section-plan > a {
+  color: var(--clr-brightBlue);
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+.section-plan > a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.section-btn {
+  display: flex;
+  flex-direction: column;
+}
+.proceed-btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: var(--clr-brightBlue);
+  padding: 1em 6em;
+  border-radius: 12px;
+  margin: 30px 0;
+  transition: background-color, box-shadow 0.3s ease-in-out;
+}
+.proceed-btn:hover {
+  background-color: var(--clr-desBlue);
+  box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.5);
+}
+.cancel-btn {
+  text-decoration: none;
+  color: var(--clr-desBlue);
+  font-weight: 900;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  transition: color 0.3s ease-in-out;
+  text-align: center;
+}
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 430px)  {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    font-size: 14px;
+  }
+
+  body {
+    text-align: center;
+  }
+  .section-hero {
+    display: inline-block;
+  }
+  .container {
+    width: 65%;
+  }
+
+  .section-plan--text h3 {
+    font-size: 0.7rem;
+  }
+  .section-plan--text p {
+    font-size: 0.8rem;
+  }
+}
