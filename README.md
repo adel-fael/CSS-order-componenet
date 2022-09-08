@@ -23,8 +23,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/frontend-mentor-order-component-FHn-3Ipwb-)
-- Live Site URL: [Add live site URL here](https://order-component-frontend-mentor.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/frontend-mentor-order-component-FHn-3Ipwb-](https://www.frontendmentor.io/solutions/frontend-mentor-order-component-FHn-3Ipwb-)
+- Live Site URL: [https://order-component-frontend-mentor.netlify.app/](https://order-component-frontend-mentor.netlify.app/)
 
 ## My process
 
