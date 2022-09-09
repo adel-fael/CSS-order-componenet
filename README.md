@@ -23,7 +23,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/frontend-mentor-order-component-FHn-3Ipwb-](https://www.frontendmentor.io/solutions/frontend-mentor-order-component-FHn-3Ipwb-)
-- Live Site URL: [https://order-component-frontend-mentor.netlify.app/](https://order-component-frontend-mentor.netlify.app/)
+- Live Site URL: [https://adel-fael.github.io/CSS-order-componenet/](https://adel-fael.github.io/CSS-order-componenet/)
 
 ## My process
 
